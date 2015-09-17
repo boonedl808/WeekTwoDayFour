@@ -1,0 +1,38 @@
+/*.btn {
+  float: left;
+}*/
+
+.Vehicle {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+
+.Car {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+}
+
+.CopCar {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+
+.Motorcycle {
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: green;
+}
+
+.Tank {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  background-color: black;
+}
