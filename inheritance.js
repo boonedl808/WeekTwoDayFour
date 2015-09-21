@@ -13,6 +13,10 @@ $(document).ready(function() {
             var y = Math.floor((Math.random() * 600) + 1);
             $('#v'+vid).css("top",y).css("left",x);
             }
+         function anm(element) {
+          $(element).delay(150).animate({ opacity: 'toggle' }, 
+              10, function() { anm(element); });
+       }
         Vehicledrop();
         v.move();
         vid++;
